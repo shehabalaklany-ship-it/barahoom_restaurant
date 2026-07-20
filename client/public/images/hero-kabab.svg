@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  
+  <!-- Plate -->
+  <circle cx="400" cy="350" r="180" fill="#f5f5f5" stroke="#999" stroke-width="2"/>
+  <circle cx="400" cy="350" r="170" fill="#ffffff"/>
+  
+  <!-- Skewers with meat -->
+  <g transform="translate(400, 350)">
+    <!-- Skewer 1 -->
+    <line x1="-80" y1="80" x2="80" y2="-80" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-60" cy="60" r="12" fill="#c41e3a"/>
+    <circle cx="-30" cy="30" r="12" fill="#c41e3a"/>
+    <circle cx="0" cy="0" r="12" fill="#c41e3a"/>
+    <circle cx="30" cy="-30" r="12" fill="#c41e3a"/>
+    <circle cx="60" cy="-60" r="12" fill="#c41e3a"/>
+    
+    <!-- Skewer 2 -->
+    <line x1="-60" y1="100" x2="100" y2="-60" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-40" cy="80" r="12" fill="#d4522f"/>
+    <circle cx="-10" cy="50" r="12" fill="#d4522f"/>
+    <circle cx="20" cy="20" r="12" fill="#d4522f"/>
+    <circle cx="50" cy="-10" r="12" fill="#d4522f"/>
+    <circle cx="80" cy="-40" r="12" fill="#d4522f"/>
+    
+    <!-- Skewer 3 -->
+    <line x1="80" y1="80" x2="-80" y2="-80" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="60" r="12" fill="#c41e3a"/>
+    <circle cx="30" cy="30" r="12" fill="#c41e3a"/>
+    <circle cx="-30" cy="-30" r="12" fill="#c41e3a"/>
+    <circle cx="-60" cy="-60" r="12" fill="#c41e3a"/>
+    
+    <!-- Garnish -->
+    <circle cx="-100" cy="0" r="8" fill="#22c55e"/>
+    <circle cx="100" cy="0" r="8" fill="#22c55e"/>
+    <circle cx="0" cy="-100" r="8" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle">كباب برهوم الفاخر</text>
+</svg>

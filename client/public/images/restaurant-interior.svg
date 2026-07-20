@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background walls -->
+  <rect width="800" height="600" fill="#1e293b"/>
+  
+  <!-- Left wall -->
+  <rect x="0" y="0" width="200" height="600" fill="#0f172a"/>
+  
+  <!-- Right wall -->
+  <rect x="600" y="0" width="200" height="600" fill="#0f172a"/>
+  
+  <!-- Ceiling -->
+  <rect x="0" y="0" width="800" height="100" fill="#2d3748"/>
+  
+  <!-- Chandelier -->
+  <circle cx="400" cy="50" r="20" fill="#d4af37" opacity="0.8"/>
+  <line x1="400" y1="70" x2="400" y2="150" stroke="#d4af37" stroke-width="2"/>
+  
+  <!-- Tables -->
+  <g>
+    <!-- Table 1 -->
+    <rect x="100" y="200" width="120" height="80" fill="#8B4513" rx="5"/>
+    <circle cx="160" cy="240" r="30" fill="#d4af37" opacity="0.3"/>
+    
+    <!-- Table 2 -->
+    <rect x="350" y="250" width="120" height="80" fill="#8B4513" rx="5"/>
+    <circle cx="410" cy="290" r="30" fill="#d4af37" opacity="0.3"/>
+    
+    <!-- Table 3 -->
+    <rect x="580" y="200" width="120" height="80" fill="#8B4513" rx="5"/>
+    <circle cx="640" cy="240" r="30" fill="#d4af37" opacity="0.3"/>
+  </g>
+  
+  <!-- Chairs -->
+  <g fill="#6B3410">
+    <rect x="80" y="300" width="30" height="40" rx="3"/>
+    <rect x="220" y="300" width="30" height="40" rx="3"/>
+    <rect x="330" y="350" width="30" height="40" rx="3"/>
+    <rect x="470" y="350" width="30" height="40" rx="3"/>
+    <rect x="560" y="300" width="30" height="40" rx="3"/>
+    <rect x="700" y="300" width="30" height="40" rx="3"/>
+  </g>
+  
+  <!-- Decorative wall elements -->
+  <rect x="50" y="150" width="80" height="150" fill="#d4af37" opacity="0.1" rx="5"/>
+  <rect x="670" y="150" width="80" height="150" fill="#d4af37" opacity="0.1" rx="5"/>
+  
+  <!-- Lighting effects -->
+  <circle cx="100" cy="100" r="60" fill="#d4af37" opacity="0.05"/>
+  <circle cx="700" cy="100" r="60" fill="#d4af37" opacity="0.05"/>
+  
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d4af37" text-anchor="middle">أجواء فاخرة وراقية</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#1e293b" rx="10"/>
+  <g transform="translate(50, 50)">
+    <!-- Skewer stick -->
+    <line x1="-20" y1="20" x2="20" y2="-20" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+    <!-- Meat pieces -->
+    <circle cx="-10" cy="10" r="6" fill="#e74c3c"/>
+    <circle cx="0" cy="0" r="6" fill="#e74c3c"/>
+    <circle cx="10" cy="-10" r="6" fill="#e74c3c"/>
+    <!-- Decorative elements -->
+    <circle cx="-15" cy="15" r="3" fill="#d4af37"/>
+    <circle cx="15" cy="-15" r="3" fill="#d4af37"/>
+  </g>
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d4af37" text-anchor="middle">برهوم</text>
+</svg>
