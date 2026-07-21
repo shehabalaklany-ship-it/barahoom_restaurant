@@ -1,0 +1,13 @@
+[[redirects]]
+from ="/*"
+to = "/index.html "
+ status = 200
+
+
+  command = "pnpm build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
